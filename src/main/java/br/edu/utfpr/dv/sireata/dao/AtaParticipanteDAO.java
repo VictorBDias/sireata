@@ -6,6 +6,9 @@ import br.edu.utfpr.dv.sireata.dao.Strategy.ListarPorAtaDAO;
 import br.edu.utfpr.dv.sireata.dao.Strategy.SalvarDAO;
 import br.edu.utfpr.dv.sireata.model.AtaParticipante;
 
+//Toda classe está implementada na pasta ataParticipanteDAO.java
+//Transformando os métodos em classes facilita a busca caso necessário alguma alteração de código
+
 public class AtaParticipanteDAO extends Teste<AtaParticipante>{
 	
     BuscarPorIdDAO<AtaParticipante> buscarPorIdDAO;
